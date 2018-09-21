@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNeptune));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,10 +38,12 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -52,6 +55,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
@@ -63,8 +67,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.button3);
             this.splitContainer1.Panel2.Controls.Add(this.button2);
             this.splitContainer1.Panel2.Controls.Add(this.button1);
-            this.splitContainer1.Size = new System.Drawing.Size(469, 304);
-            this.splitContainer1.SplitterDistance = 209;
+            this.splitContainer1.Size = new System.Drawing.Size(463, 359);
+            this.splitContainer1.SplitterDistance = 206;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.TabStop = false;
             // 
@@ -72,7 +76,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 200);
+            this.label4.Location = new System.Drawing.Point(16, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(171, 69);
             this.label4.TabIndex = 3;
@@ -83,7 +87,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Book Antiqua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 150);
+            this.label3.Location = new System.Drawing.Point(13, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(176, 28);
             this.label3.TabIndex = 2;
@@ -94,7 +98,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Book Antiqua", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 96);
+            this.label2.Location = new System.Drawing.Point(19, 176);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(164, 32);
             this.label2.TabIndex = 1;
@@ -105,7 +109,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 35);
+            this.label1.Location = new System.Drawing.Point(11, 134);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(180, 39);
             this.label1.TabIndex = 0;
@@ -116,7 +120,7 @@
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Font = new System.Drawing.Font("Book Antiqua", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(94, 239);
+            this.btnExit.Location = new System.Drawing.Point(98, 302);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(53, 30);
             this.btnExit.TabIndex = 3;
@@ -127,7 +131,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(20, 144);
+            this.button3.Location = new System.Drawing.Point(18, 233);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(212, 32);
             this.button3.TabIndex = 2;
@@ -137,7 +141,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(20, 91);
+            this.button2.Location = new System.Drawing.Point(18, 185);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(212, 32);
             this.button2.TabIndex = 1;
@@ -147,19 +151,29 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(20, 38);
+            this.button1.Location = new System.Drawing.Point(18, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(212, 32);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(50, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmNeptune
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(469, 304);
+            this.ClientSize = new System.Drawing.Size(463, 359);
             this.Controls.Add(this.splitContainer1);
             this.Name = "frmNeptune";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -169,6 +183,7 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -184,6 +199,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
