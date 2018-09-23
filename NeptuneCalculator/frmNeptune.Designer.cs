@@ -71,8 +71,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.button3);
             this.splitContainer1.Panel2.Controls.Add(this.button2);
             this.splitContainer1.Panel2.Controls.Add(this.btnMortgage);
-            this.splitContainer1.Size = new System.Drawing.Size(463, 359);
-            this.splitContainer1.SplitterDistance = 206;
+            this.splitContainer1.Size = new System.Drawing.Size(484, 362);
+            this.splitContainer1.SplitterDistance = 215;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.TabStop = false;
             // 
@@ -81,9 +81,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Book Antiqua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.GhostWhite;
-            this.groupBox1.Location = new System.Drawing.Point(5, 232);
+            this.groupBox1.Location = new System.Drawing.Point(10, 229);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(193, 119);
+            this.groupBox1.Size = new System.Drawing.Size(190, 119);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Team Neptune";
@@ -140,7 +140,7 @@
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Font = new System.Drawing.Font("Book Antiqua", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Maroon;
-            this.btnExit.Location = new System.Drawing.Point(177, 321);
+            this.btnExit.Location = new System.Drawing.Point(198, 318);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(53, 30);
             this.btnExit.TabIndex = 3;
@@ -153,9 +153,9 @@
             this.button3.BackColor = System.Drawing.Color.GhostWhite;
             this.button3.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button3.Location = new System.Drawing.Point(18, 233);
+            this.button3.Location = new System.Drawing.Point(20, 233);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(212, 32);
+            this.button3.Size = new System.Drawing.Size(221, 32);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
@@ -165,23 +165,24 @@
             this.button2.BackColor = System.Drawing.Color.GhostWhite;
             this.button2.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button2.Location = new System.Drawing.Point(18, 185);
+            this.button2.Location = new System.Drawing.Point(20, 185);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(212, 32);
+            this.button2.Size = new System.Drawing.Size(221, 32);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // btnMortgage
             // 
+            this.btnMortgage.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
             this.btnMortgage.BackColor = System.Drawing.Color.GhostWhite;
             this.btnMortgage.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMortgage.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnMortgage.Location = new System.Drawing.Point(18, 137);
+            this.btnMortgage.Location = new System.Drawing.Point(20, 110);
             this.btnMortgage.Name = "btnMortgage";
-            this.btnMortgage.Size = new System.Drawing.Size(212, 32);
+            this.btnMortgage.Size = new System.Drawing.Size(221, 59);
             this.btnMortgage.TabIndex = 0;
-            this.btnMortgage.Text = "Mortgage Calculator";
+            this.btnMortgage.Text = "&Fixed-Rate\r\nMortgage Calculator";
             this.btnMortgage.UseVisualStyleBackColor = false;
             // 
             // frmNeptune
@@ -190,7 +191,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(463, 359);
+            this.ClientSize = new System.Drawing.Size(484, 362);
             this.Controls.Add(this.splitContainer1);
             this.Name = "frmNeptune";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
