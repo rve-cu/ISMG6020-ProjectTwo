@@ -17,6 +17,8 @@ namespace NeptuneCalculator
             InitializeComponent();
         }
 
+        frmRateCalculator formRateCalculator;
+
         private void btnCalculateMortgage_Click(object sender, EventArgs e)
         {
             // Convert input
@@ -43,14 +45,15 @@ namespace NeptuneCalculator
 
         private void btnExitMortgage_Click(object sender, EventArgs e)
         {
+            formRateCalculator.Close();
             this.Close();
         }
 
         private void btnRate_Click(object sender, EventArgs e)
         {
             // Display Interest Rate Calculator form
-            frmRateCalculator form = new frmRateCalculator();
-            form.Show();
+            formRateCalculator = new frmRateCalculator();
+            formRateCalculator.Show();
         }
     }
 }
