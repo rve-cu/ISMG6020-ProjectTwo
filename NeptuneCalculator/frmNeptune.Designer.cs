@@ -183,6 +183,7 @@
             this.btnMortgage.TabIndex = 0;
             this.btnMortgage.Text = "Mortgage Calculator";
             this.btnMortgage.UseVisualStyleBackColor = false;
+            this.btnMortgage.Click += new System.EventHandler(this.btnMortgage_Click);
             // 
             // frmNeptune
             // 

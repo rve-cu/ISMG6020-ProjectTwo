@@ -21,5 +21,12 @@ namespace NeptuneCalculator
         {
             this.Close();
         }
+
+        private void btnMortgage_Click(object sender, EventArgs e)
+        {
+            // Display Mortgage Calculator form
+            frmMortgageCalculator form = new frmMortgageCalculator();
+            form.Show();
+        }
     }
 }
