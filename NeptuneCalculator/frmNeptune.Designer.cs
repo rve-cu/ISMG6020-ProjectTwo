@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnTotalInterest = new System.Windows.Forms.Button();
             this.btnARMCalc = new System.Windows.Forms.Button();
             this.btnFixedMortgage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -68,7 +68,7 @@
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel2.BackgroundImage")));
             this.splitContainer1.Panel2.Controls.Add(this.btnExit);
-            this.splitContainer1.Panel2.Controls.Add(this.button3);
+            this.splitContainer1.Panel2.Controls.Add(this.btnTotalInterest);
             this.splitContainer1.Panel2.Controls.Add(this.btnARMCalc);
             this.splitContainer1.Panel2.Controls.Add(this.btnFixedMortgage);
             this.splitContainer1.Size = new System.Drawing.Size(484, 362);
@@ -148,24 +148,25 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // button3
+            // btnTotalInterest
             // 
-            this.button3.BackColor = System.Drawing.Color.GhostWhite;
-            this.button3.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button3.Location = new System.Drawing.Point(20, 233);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(221, 59);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnTotalInterest.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnTotalInterest.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTotalInterest.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnTotalInterest.Location = new System.Drawing.Point(20, 232);
+            this.btnTotalInterest.Name = "btnTotalInterest";
+            this.btnTotalInterest.Size = new System.Drawing.Size(221, 59);
+            this.btnTotalInterest.TabIndex = 2;
+            this.btnTotalInterest.Text = "Total &Interest Calculator";
+            this.btnTotalInterest.UseVisualStyleBackColor = false;
+            this.btnTotalInterest.Click += new System.EventHandler(this.btnTotalInterest_Click);
             // 
             // btnARMCalc
             // 
             this.btnARMCalc.BackColor = System.Drawing.Color.GhostWhite;
             this.btnARMCalc.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnARMCalc.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnARMCalc.Location = new System.Drawing.Point(20, 146);
+            this.btnARMCalc.Location = new System.Drawing.Point(20, 147);
             this.btnARMCalc.Name = "btnARMCalc";
             this.btnARMCalc.Size = new System.Drawing.Size(221, 62);
             this.btnARMCalc.TabIndex = 1;
@@ -217,7 +218,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnTotalInterest;
         private System.Windows.Forms.Button btnARMCalc;
         private System.Windows.Forms.Button btnFixedMortgage;
         private System.Windows.Forms.PictureBox pictureBox1;

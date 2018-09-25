@@ -35,5 +35,11 @@ namespace NeptuneCalculator
             frmYTDCalc f2 = new frmYTDCalc();
             f2.ShowDialog();
         }
+
+        private void btnTotalInterest_Click(object sender, EventArgs e)
+        {
+            frmTotalInterest f3 = new frmTotalInterest();
+            f3.ShowDialog();
+        }
     }
 }

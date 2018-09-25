@@ -22,3 +22,4 @@ C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalcula
 C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.pdb
 C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmFixedMortgageCalculator.resources
 C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmRateCalculator.resources
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmTotalInterest.resources

@@ -45,15 +45,18 @@ namespace NeptuneCalculator
 
         private void btnExitMortgage_Click(object sender, EventArgs e)
         {
-            formRateCalculator.Close();
+            if (this.formRateCalculator != null)
+            {
+                this.formRateCalculator.Close();
+            }
             this.Close();
         }
 
         private void btnRate_Click(object sender, EventArgs e)
         {
             // Display Interest Rate Calculator form
-            formRateCalculator = new frmRateCalculator(this);
-            formRateCalculator.Show();
+            this.formRateCalculator = new frmRateCalculator(this);
+            this.formRateCalculator.Show();
         }
     }
 }

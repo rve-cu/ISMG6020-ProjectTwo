@@ -146,7 +146,7 @@
             this.btnExitMortgage.Location = new System.Drawing.Point(483, 366);
             this.btnExitMortgage.Name = "btnExitMortgage";
             this.btnExitMortgage.Size = new System.Drawing.Size(93, 30);
-            this.btnExitMortgage.TabIndex = 7;
+            this.btnExitMortgage.TabIndex = 8;
             this.btnExitMortgage.Text = "&Main Menu";
             this.btnExitMortgage.UseVisualStyleBackColor = false;
             this.btnExitMortgage.Click += new System.EventHandler(this.btnExitMortgage_Click);
@@ -159,7 +159,7 @@
             this.btnCalculateMortgage.Location = new System.Drawing.Point(193, 365);
             this.btnCalculateMortgage.Name = "btnCalculateMortgage";
             this.btnCalculateMortgage.Size = new System.Drawing.Size(212, 32);
-            this.btnCalculateMortgage.TabIndex = 6;
+            this.btnCalculateMortgage.TabIndex = 7;
             this.btnCalculateMortgage.Text = "&Calculate";
             this.btnCalculateMortgage.UseVisualStyleBackColor = false;
             this.btnCalculateMortgage.Click += new System.EventHandler(this.btnCalculateMortgage_Click);
@@ -280,7 +280,7 @@
             this.btnRate.Location = new System.Drawing.Point(483, 188);
             this.btnRate.Name = "btnRate";
             this.btnRate.Size = new System.Drawing.Size(93, 52);
-            this.btnRate.TabIndex = 33;
+            this.btnRate.TabIndex = 6;
             this.btnRate.Text = "Calculate &Interest Rate";
             this.btnRate.UseVisualStyleBackColor = false;
             this.btnRate.Click += new System.EventHandler(this.btnRate_Click);
