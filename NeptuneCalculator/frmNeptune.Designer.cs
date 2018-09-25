@@ -184,6 +184,7 @@
             this.btnMortgage.TabIndex = 0;
             this.btnMortgage.Text = "&Fixed-Rate\r\nMortgage Calculator";
             this.btnMortgage.UseVisualStyleBackColor = false;
+            this.btnMortgage.Click += new System.EventHandler(this.btnMortgage_Click);
             // 
             // frmNeptune
             // 
