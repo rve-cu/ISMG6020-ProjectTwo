@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.btnExitRate = new System.Windows.Forms.Button();
+            this.btnCopyRate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtCreditScore
@@ -131,13 +132,26 @@
             this.btnExitRate.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExitRate.Font = new System.Drawing.Font("Book Antiqua", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExitRate.ForeColor = System.Drawing.Color.Maroon;
-            this.btnExitRate.Location = new System.Drawing.Point(214, 208);
+            this.btnExitRate.Location = new System.Drawing.Point(214, 282);
             this.btnExitRate.Name = "btnExitRate";
             this.btnExitRate.Size = new System.Drawing.Size(104, 30);
             this.btnExitRate.TabIndex = 4;
             this.btnExitRate.Text = "Close Window";
             this.btnExitRate.UseVisualStyleBackColor = false;
             this.btnExitRate.Click += new System.EventHandler(this.btnExitRate_Click);
+            // 
+            // btnCopyRate
+            // 
+            this.btnCopyRate.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnCopyRate.Font = new System.Drawing.Font("Book Antiqua", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCopyRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnCopyRate.Location = new System.Drawing.Point(47, 200);
+            this.btnCopyRate.Name = "btnCopyRate";
+            this.btnCopyRate.Size = new System.Drawing.Size(235, 55);
+            this.btnCopyRate.TabIndex = 31;
+            this.btnCopyRate.Text = "Copy Rate to Fixed-Rate Mortgage Calculator";
+            this.btnCopyRate.UseVisualStyleBackColor = false;
+            this.btnCopyRate.Click += new System.EventHandler(this.btnCopyRate_Click);
             // 
             // frmRateCalculator
             // 
@@ -147,7 +161,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExitRate;
-            this.ClientSize = new System.Drawing.Size(328, 248);
+            this.ClientSize = new System.Drawing.Size(328, 324);
+            this.Controls.Add(this.btnCopyRate);
             this.Controls.Add(this.btnExitRate);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtInterestRate);
@@ -173,5 +188,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnExitRate;
+        private System.Windows.Forms.Button btnCopyRate;
     }
 }

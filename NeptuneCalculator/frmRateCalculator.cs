@@ -12,9 +12,12 @@ namespace NeptuneCalculator
 {
     public partial class frmRateCalculator : Form
     {
-        public frmRateCalculator()
+        Form formFixedMortgageCalculator;
+
+        public frmRateCalculator(frmFixedMortgageCalculator _form)
         {
             InitializeComponent();
+            this.formFixedMortgageCalculator = _form; // pull in current instance of fixed-rate mortgage calculator form
         }
 
         private void btnCalculateRate_Click(object sender, EventArgs e)
@@ -56,6 +59,12 @@ namespace NeptuneCalculator
         private void btnExitRate_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnCopyRate_Click(object sender, EventArgs e)
+        {
+            // Copy current value for interest rate to corresponding input on fixed-rate mortgage calculator form
+            formFixedMortgageCalculator.Controls.Find("txtAnnualRate", true).First().Text = txtInterestRate.Text;
         }
     }
 }

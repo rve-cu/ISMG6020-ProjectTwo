@@ -1,6 +1,6 @@
 ﻿namespace NeptuneCalculator
 {
-    partial class frmMortgageCalculator
+    partial class frmFixedMortgageCalculator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMortgageCalculator));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFixedMortgageCalculator));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -285,7 +285,7 @@
             this.btnRate.UseVisualStyleBackColor = false;
             this.btnRate.Click += new System.EventHandler(this.btnRate_Click);
             // 
-            // frmMortgageCalculator
+            // frmFixedMortgageCalculator
             // 
             this.AcceptButton = this.btnCalculateMortgage;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -314,9 +314,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmMortgageCalculator";
+            this.Name = "frmFixedMortgageCalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mortgage Calculator";
+            this.Text = "Fixed-Rate Mortgage Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -24,8 +24,8 @@ namespace NeptuneCalculator
 
         private void btnMortgage_Click(object sender, EventArgs e)
         {
-            // Display Mortgage Calculator form
-            frmMortgageCalculator form = new frmMortgageCalculator();
+            // Display Fixed-Rate Mortgage Calculator form
+            frmFixedMortgageCalculator form = new frmFixedMortgageCalculator();
             form.Show();
         }
     }

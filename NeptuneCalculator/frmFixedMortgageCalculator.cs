@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NeptuneCalculator
 {
-    public partial class frmMortgageCalculator : Form
+    public partial class frmFixedMortgageCalculator : Form
     {
-        public frmMortgageCalculator()
+        public frmFixedMortgageCalculator()
         {
             InitializeComponent();
         }
@@ -52,7 +52,7 @@ namespace NeptuneCalculator
         private void btnRate_Click(object sender, EventArgs e)
         {
             // Display Interest Rate Calculator form
-            formRateCalculator = new frmRateCalculator();
+            formRateCalculator = new frmRateCalculator(this);
             formRateCalculator.Show();
         }
     }
