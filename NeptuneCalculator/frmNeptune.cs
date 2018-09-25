@@ -22,16 +22,15 @@ namespace NeptuneCalculator
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmYTDCalc f2 = new frmYTDCalc();
-            f2.ShowDialog();
-        }
-
         private void btnMortgage_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmTotalInterest f3 = new frmTotalInterest();
+            f3.ShowDialog();
         }
     }
 }

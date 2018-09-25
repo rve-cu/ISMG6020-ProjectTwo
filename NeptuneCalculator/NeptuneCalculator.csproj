@@ -46,25 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmYTDCalc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmYTDCalc.Designer.cs">
-      <DependentUpon>frmYTDCalc.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmNeptune.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNeptune.Designer.cs">
       <DependentUpon>frmNeptune.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTotalInterest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTotalInterest.Designer.cs">
+      <DependentUpon>frmTotalInterest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmYTDCalc.resx">
-      <DependentUpon>frmYTDCalc.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmNeptune.resx">
       <DependentUpon>frmNeptune.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTotalInterest.resx">
+      <DependentUpon>frmTotalInterest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
