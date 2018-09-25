@@ -617,7 +617,7 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="splitContainer1.Panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/4gJYSUNDX1BST0ZJTEUAAQEAAAJIQURCRQIQAABtbnRyUkdCIFhZ
         WiAHzwAGAAMAAAAAAABhY3NwTVNGVAAAAABub25lAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLUFE

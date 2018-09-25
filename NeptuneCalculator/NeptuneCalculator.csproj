@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmFixedMortgageCalculator.cs">
+    <Compile Include="frmYTDCalc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFixedMortgageCalculator.Designer.cs">
-      <DependentUpon>frmFixedMortgageCalculator.cs</DependentUpon>
+    <Compile Include="frmYTDCalc.Designer.cs">
+      <DependentUpon>frmYTDCalc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNeptune.cs">
       <SubType>Form</SubType>
@@ -58,22 +58,13 @@
     <Compile Include="frmNeptune.Designer.cs">
       <DependentUpon>frmNeptune.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRateCalculator.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRateCalculator.Designer.cs">
-      <DependentUpon>frmRateCalculator.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmFixedMortgageCalculator.resx">
-      <DependentUpon>frmFixedMortgageCalculator.cs</DependentUpon>
+    <EmbeddedResource Include="frmYTDCalc.resx">
+      <DependentUpon>frmYTDCalc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNeptune.resx">
       <DependentUpon>frmNeptune.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRateCalculator.resx">
-      <DependentUpon>frmRateCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
