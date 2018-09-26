@@ -9,3 +9,16 @@ C:\Users\Allie\Documents\ISMG 6080\Project 2\ISMG6020-ProjectTwo-master\NeptuneC
 C:\Users\Allie\Documents\ISMG 6080\Project 2\ISMG6020-ProjectTwo-master\NeptuneCalculator\bin\Debug\NeptuneCalculator.pdb
 C:\Users\Allie\Documents\ISMG 6080\Project 2\ISMG6020-ProjectTwo-master\NeptuneCalculator\obj\Debug\NeptuneCalculator.exe
 C:\Users\Allie\Documents\ISMG 6080\Project 2\ISMG6020-ProjectTwo-master\NeptuneCalculator\obj\Debug\NeptuneCalculator.pdb
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\bin\Debug\NeptuneCalculator.exe.config
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\bin\Debug\NeptuneCalculator.exe
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\bin\Debug\NeptuneCalculator.pdb
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.csprojAssemblyReference.cache
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmYTDCalc.resources
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmNeptune.resources
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.Properties.Resources.resources
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.csproj.GenerateResource.cache
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.exe
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.pdb
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmFixedMortgageCalculator.resources
+C:\Users\Sigyn\Documents\Visual Studio 2017\ISMG 6020\Project Two\NeptuneCalculator\NeptuneCalculator\obj\Debug\NeptuneCalculator.frmRateCalculator.resources

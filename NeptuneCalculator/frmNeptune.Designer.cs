@@ -38,7 +38,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnARMCalc = new System.Windows.Forms.Button();
-            this.btnMortgage = new System.Windows.Forms.Button();
+            this.btnFixedMortgage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -70,7 +70,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.btnExit);
             this.splitContainer1.Panel2.Controls.Add(this.button3);
             this.splitContainer1.Panel2.Controls.Add(this.btnARMCalc);
-            this.splitContainer1.Panel2.Controls.Add(this.btnMortgage);
+            this.splitContainer1.Panel2.Controls.Add(this.btnFixedMortgage);
             this.splitContainer1.Size = new System.Drawing.Size(484, 362);
             this.splitContainer1.SplitterDistance = 215;
             this.splitContainer1.TabIndex = 0;
@@ -171,21 +171,21 @@
             this.btnARMCalc.TabIndex = 1;
             this.btnARMCalc.Text = "&Year-To-Date Analysis Calculator";
             this.btnARMCalc.UseVisualStyleBackColor = false;
-            this.btnARMCalc.Click += new System.EventHandler(this.button2_Click);
+            this.btnARMCalc.Click += new System.EventHandler(this.btnARMCalc_Click);
             // 
-            // btnMortgage
+            // btnFixedMortgage
             // 
-            this.btnMortgage.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
-            this.btnMortgage.BackColor = System.Drawing.Color.GhostWhite;
-            this.btnMortgage.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMortgage.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnMortgage.Location = new System.Drawing.Point(20, 65);
-            this.btnMortgage.Name = "btnMortgage";
-            this.btnMortgage.Size = new System.Drawing.Size(221, 59);
-            this.btnMortgage.TabIndex = 0;
-            this.btnMortgage.Text = "&Fixed-Rate\r\nMortgage Calculator";
-            this.btnMortgage.UseVisualStyleBackColor = false;
-            this.btnMortgage.Click += new System.EventHandler(this.btnMortgage_Click);
+            this.btnFixedMortgage.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
+            this.btnFixedMortgage.BackColor = System.Drawing.Color.GhostWhite;
+            this.btnFixedMortgage.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFixedMortgage.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnFixedMortgage.Location = new System.Drawing.Point(20, 65);
+            this.btnFixedMortgage.Name = "btnFixedMortgage";
+            this.btnFixedMortgage.Size = new System.Drawing.Size(221, 59);
+            this.btnFixedMortgage.TabIndex = 0;
+            this.btnFixedMortgage.Text = "&Fixed-Rate\r\nMortgage Calculator";
+            this.btnFixedMortgage.UseVisualStyleBackColor = false;
+            this.btnFixedMortgage.Click += new System.EventHandler(this.btnFixedMortgage_Click);
             // 
             // frmNeptune
             // 
@@ -219,7 +219,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnARMCalc;
-        private System.Windows.Forms.Button btnMortgage;
+        private System.Windows.Forms.Button btnFixedMortgage;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
     }

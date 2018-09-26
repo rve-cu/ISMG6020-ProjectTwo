@@ -22,16 +22,18 @@ namespace NeptuneCalculator
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnFixedMortgage_Click(object sender, EventArgs e)
+        {
+            // Display Fixed-Rate Mortgage Calculator form
+            frmFixedMortgageCalculator form = new frmFixedMortgageCalculator();
+            form.Show();
+        }
+
+        private void btnARMCalc_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmYTDCalc f2 = new frmYTDCalc();
             f2.ShowDialog();
-        }
-
-        private void btnMortgage_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
